@@ -1,0 +1,62 @@
+body {
+  background: #333;
+  color: #fff; }
+
+.card {
+  background: #2b2929; }
+
+.navbar {
+  border-bottom: 3px solid rgba(0, 0, 0, 0.815);
+  background: #292b2c;
+  opacity: 0.7; }
+
+nav {
+  position: top fixed !important; }
+
+#home-section {
+  margin-top: 0;
+  background: url("../img/pexels.jpg") no-repeat center top;
+  background-size: cover;
+  max-height: 700px; }
+  #home-section .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    max-height: 700px; }
+  #home-section .fa {
+    padding: 4px;
+    font-size: 20px; }
+  #home-section .card {
+    opacity: 0.8; }
+  #home-section .home-inner {
+    padding-top: 100px;
+    padding-bottom: 100px; }
+
+#explore-main-section .card:hover {
+  cursor: pointer;
+  transform: scale(1.1) !important;
+  transition: delay 0.3s ease-in-out !important;
+  box-shadow: 5px 5px 15px rgba(163, 159, 159, 0.6) !important; }
+
+@media (max-width: 768px) {
+  #home-section h1 {
+    font-size: 36px; } }
+
+#explore-footer-section .text-muted {
+  cursor: pointer; }
+
+#create-head-section {
+  background-color: #555151;
+  padding-bottom: 100px; }
+
+#create-main-section {
+  background-color: #555151;
+  margin-bottom: 100px; }
+  #create-main-section .fa {
+    font-size-adjust: 20px; }
+  #create-main-section .img-fluid {
+    align-self: baseline; }
+
+#footer-section {
+  background-color: #555151; }
+  #footer-section .fa {
+    font-size: 30px;
+    color: azure; }
